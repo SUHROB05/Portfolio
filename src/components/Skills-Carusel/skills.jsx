@@ -23,7 +23,7 @@ function Skills() {
 
   useEffect(() => {
     showSlide();
-  }, [index]); // index o'zgarganda showSlide ishlaydi
+  }, [index]); 
 
   const nextSlide = () => {
     setIndex((prevIndex) => (prevIndex + 1) % totalSlides);
