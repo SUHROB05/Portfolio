@@ -1,0 +1,241 @@
+.aboutmy {
+    margin-top: 100px;
+    width: 100%;
+
+    .abuot__informeshn {
+        animation: fadeInUp 0.7s ease-out forwards;
+        text-align: center;
+
+        h2 {
+            font-size: 40px;
+            font: bold;
+            color: #fff;
+        }
+    }
+
+    .about__body {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .about__img {
+            animation: fadeInUp 0.7s ease-out forwards;
+            margin-top: 30px;
+            width: 50%;
+            overflow: hidden;
+
+            img {
+                width: 500px;
+                transform: rotate(-5deg);
+            }
+        }
+
+        .about__text {
+            animation: fadeInUp 0.7s ease-out forwards;
+            width: 50%;
+            margin-top: 50px;
+            padding: 0 30px;
+
+            p {
+                font-size: 20px;
+                font: 600;
+                color: #959595;
+                text-align: justify;
+                line-height: 38px;
+
+                span {
+                    font-size: 20px;
+                    font: 600;
+                    color: #959595;
+                    text-align: justify;
+                    line-height: 38px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:1200px) {
+    .aboutmy {
+
+
+        .about__body {
+            .about__img {
+
+                img {
+                    width: 400px;
+                    transform: rotate(-5deg);
+                }
+            }
+
+            .about__text {
+                p {
+                    line-height: 30px;
+
+                    span {
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:1000px) {
+    .aboutmy {
+        margin-top: 80px;
+
+        .about__body {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .about__img {
+                margin-top: 20px;
+
+                img {
+                    width: 350px;
+                }
+            }
+
+            .about__text {
+                margin-top: 30px;
+                padding: 0 20px;
+
+                p {
+                    font-size: 18px;
+                    line-height: 25px;
+
+                    span {
+                        font-size: 18px;
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:830px) {
+    .aboutmy {
+        .abuot__informeshn {
+            h2 {
+                font-size: 36px;
+            }
+        }
+
+        .about__body {
+            display: block;
+
+            .about__img {
+                margin-top: 30px;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    width: 60%;
+                    margin: 0 auto;
+                }
+            }
+
+            .about__text {
+                width: 100%;
+                margin-top: 50px;
+                padding: 0 0px;
+
+                p {
+                    font-size: 18px;
+                    line-height: 30px;
+
+                    span {
+                        font-size: 18px;
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:500px) {
+    .aboutmy {
+
+        .abuot__informeshn {
+
+            h2 {
+                font-size: 30px;
+
+            }
+        }
+
+        .about__body {
+
+            .about__img {
+                margin-top: 25px;
+                width: 100%;
+                overflow: hidden;
+
+                img {
+                    width: 80%;
+                }
+            }
+
+            .about__text {
+                margin-top: 30px;
+                padding: 0 8px;
+
+                p {
+                    font-size: 16px;
+                    line-height: 26px;
+
+                    span {
+                        font-size: 16px;
+                        line-height: 26px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

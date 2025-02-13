@@ -1,0 +1,219 @@
+.skills {
+    padding: 20px 40px;
+    margin: 0 auto;
+    margin-top: 70px;
+
+    .hard-text {
+        margin-bottom: 50px;
+        text-align: center;
+        color: #fff;
+        font-size: 40px;
+        font: bold;
+        animation: fadeInUp 0.7s ease-out forwards;
+    }
+}
+
+.hard__carusel {
+    animation: fadeInUp 0.7s ease-out forwards;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; // Butonlar carousel ichida qolishi uchun
+
+    // .btn__carusel {
+    //     width: 50px;
+    //     height: 50px;
+    //     position: absolute; // Tugmalarni carousel ichiga joylash
+    //     top: 50%;
+    //     transform: translateY(-50%);
+    //     background-color: #ffffff4f;
+    //     color: white;
+    //     border: 1px solid rgba(255, 255, 255, 0.316);
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
+    //     cursor: pointer;
+    //     font-size: 20px;
+    //     border-radius: 50%;
+
+    //     &:hover {
+    //         box-shadow: 0 0 10px rgba(190, 190, 190, 0.521);
+    //     }
+    // }
+
+    // .btn__carusel:first-of-type {
+    //     left: -20px; // Chap tugmani joylashtirish
+    // }
+
+    // .btn__carusel:last-of-type {
+    //     right: -20px; // O'ng tugmani joylashtirish
+    // }
+
+    .carusel {
+        width: 100%;
+        // height: 222px;
+        display: grid;
+        overflow: hidden;
+        gap: 40px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+
+        .card {
+            width: 100%;
+            height: 200px;
+            background: #171717;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 0px 8px rgba(255, 255, 255, 0.2);
+
+            .img__icon{
+                width: 100px;
+                height: 100px;
+                color: rgba(255, 255, 255, 0.5);
+            }
+            h2{
+                margin-top: 15px;
+                color: rgba(255, 255, 255, 0.5);
+                font: bold;
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+
+@media (max-width:1200px) { 
+    .skills {
+        padding: 15px 30px;
+        margin-top: 60px;
+    } 
+    .hard__carusel {
+    
+        .carusel {
+            gap: 30px;
+        }
+    }
+    
+}
+
+@media (max-width:800px) {
+    .skills {
+        padding: 10px 20px;
+        margin-top: 50px;
+    
+        .hard-text {
+            margin-bottom: 40px;
+        }
+    }
+    
+}
+
+@media (max-width:600px) {
+    .skills {
+        padding: 10px 15px;
+        margin-top: 40px;
+    
+        .hard-text {
+            margin-bottom: 40px;
+            color: #fff;
+            font-size: 32px;
+        }
+    }
+    
+    .hard__carusel {
+    
+        .carusel {
+            gap: 30px;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    
+            .card {
+                width: 100%;
+                height: 150px;
+                padding: 10px;
+                border-radius: 12px;
+    
+                .img__icon{
+                    width: 75px;
+                    height: 75px;
+                }
+                h2{
+                    margin-top: 12px;
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+    
+}
+
+@media (max-width:500px) {
+    .skills {
+        padding: 10px 15px;
+        margin-top: 25px;
+    
+        .hard-text {
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+    }
+    
+    .hard__carusel {  
+        .carusel {
+            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            padding: 8px;
+    
+            .card {
+                height: 150px;
+                padding: 10px;
+                border-radius: 10px;
+    
+                .img__icon{
+                    width: 75px;
+                    height: 75px;
+                   }
+                h2{
+                    margin-top: 12px;
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
