@@ -33,7 +33,7 @@ function Contact() {
                 </label>
 
                 <label htmlFor="details">
-                    <textarea id="details" name="details" placeholder="Project Details..."></textarea>
+                    <textarea id="details" name="details" placeholder="Project Details...."></textarea>
                 </label>
             </form>
 
