@@ -1,0 +1,206 @@
+.contact__me {
+    margin-top: 50px;
+    padding: 30px 0;
+
+    .contact__me-text {
+        animation: fadeInUp 0.7s ease-out forwards;
+        margin: 0 auto;
+        text-align: center;
+
+        h2 {
+            font-size: 40px;
+            font: bold;
+            color: #fff;
+            text-align: center;
+        }
+
+        p {
+            margin-top: 20px;
+            font-size: 20px;
+            font: bold;
+            text-align: center;
+            color: #fff;
+        }
+    }
+
+    .form__contact {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+        gap: 40px;
+        margin-top: 50px;
+        height: auto;
+
+        label {
+            height: 50px;
+            border-radius: 15px;
+            background-color: #1b1b1b;
+            animation: fadeInUp 0.7s ease-out forwards;
+
+            input,
+            select {
+                width: 100%;
+                height: 100%;
+                border-radius: 15px;
+                background-color: #1b1b1b;
+                padding: 10px 20px;
+                font-size: 20px;
+                border: none;
+                outline: none;
+                color: #adadad;
+                font: 800;
+
+            }
+
+
+        }
+
+        textarea {
+            width: 100%;
+            max-width: 100%;
+            min-width: 100%;
+            min-height: 100px;
+            max-height: 300px;
+            height: auto;
+            border-radius: 15px;
+            background-color: #1b1b1b;
+            padding: 10px 20px;
+            font-size: 20px;
+            border: none;
+            outline: none;
+            color: #adadad;
+            animation: fadeInUp 0.7s ease-out forwards;
+        }
+    }
+
+    .form-btn1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+
+        .form__contact-btn {
+            font-size: 20px;
+            padding: 10px 25px;
+            background-color: #121212;
+            border: 2px solid #959595;
+            color: #959595;
+            border-radius: 10px;
+            margin: 0 auto;
+            animation: fadeInUp 0.7s ease-out forwards;
+
+            &:hover {
+                box-shadow: 0 0 15px #e96600;
+                color: #e96600;
+                border-color: #e96600;
+
+            }
+        }
+    }
+
+
+}
+
+@media (max-width:1000px) {
+    .contact__me {
+
+        .form__contact {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+            gap: 0;
+
+            label {
+                margin: 15px 0;
+
+            }
+
+            textarea {
+                margin: 15px 0;
+            }
+        }
+
+    }
+}
+
+@media (max-width:550px) {
+    .contact__me {
+        margin-top: 35px;
+        padding: 20px 0;
+
+        .contact__me-text {
+
+            h2 {
+                font-size: 28px;
+            }
+
+            p {
+                margin-top: 15px;
+                font-size: 15px;
+            }
+        }
+
+        .form__contact {
+            margin-top: 20px;
+
+            label {
+                height: 38px;
+                border-radius: 10px;
+
+                input,
+                select {
+                    border-radius: 10px;
+                    background-color: #1b1b1b;
+                    padding: 8px 16px;
+                    font-size: 16px;
+                }
+
+
+            }
+
+            textarea {
+                min-height: 50px;
+                max-height: 200px;
+                border-radius: 10px;
+                background-color: #1b1b1b;
+                padding: 8px 16px;
+                font-size: 16px;
+            }
+        }
+
+        .form-btn1 {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 24px;
+
+            .form__contact-btn {
+                font-size: 16px;
+                padding: 8px 20px;
+                border-radius: 10px;
+
+                &:hover {
+                    box-shadow: 0 0 12px #e96600;
+
+                }
+            }
+        }
+
+
+    }
+}
+
+
+
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

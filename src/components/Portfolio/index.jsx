@@ -17,7 +17,7 @@ function portfolio() {
                     </div>
                     <div className='p__card-text'>
                         <h3>adadfvbdgfbvc </h3>
-                        <div><button>&gt;&gt;&gt;</button></div>
+                        <a href='#'><button>&gt;&gt;&gt;</button></a>
                     </div>
                 </div>
                 <div className='p__card'>
@@ -26,7 +26,7 @@ function portfolio() {
                     </div>
                     <div className='p__card-text'>
                         <h3>adadfvbdgfbvc </h3>
-                        <div><button>&gt;&gt;&gt;</button></div>
+                        <a href='#'><button>&gt;&gt;&gt;</button></a>
                     </div>
                 </div>
                 <div className='p__card'>
@@ -35,9 +35,39 @@ function portfolio() {
                     </div>
                     <div className='p__card-text'>
                         <h3>adadfvbdgfbvc </h3>
-                        <div><button>&gt;&gt;&gt;</button></div>
+                        <a href='#'><button>&gt;&gt;&gt;</button></a>
                     </div>
                 </div>
+                <div className='p__card'>
+                    <div className='p__card-img'>
+                        <img src={cardPick1} alt="" />
+                    </div>
+                    <div className='p__card-text'>
+                        <h3>adadfvbdgfbvc </h3>
+                        <a href='#'><button>&gt;&gt;&gt;</button></a>
+                    </div>
+                </div>
+                <div className='p__card'>
+                    <div className='p__card-img'>
+                        <img src={cardPick2} alt="" />
+                    </div>
+                    <div className='p__card-text'>
+                        <h3>adadfvbdgfbvc </h3>
+                        <a href='#'><button>&gt;&gt;&gt;</button></a>
+                    </div>
+                </div>
+                <div className='p__card'>
+                    <div className='p__card-img'>
+                        <img src={cardPick3} alt="" />
+                    </div>
+                    <div className='p__card-text'>
+                        <h3>adadfvbdgfbvc </h3>
+                        <a href='#'><button>&gt;&gt;&gt;</button></a>
+                    </div>
+                </div>
+            </div>
+            <div className='portfolio__more'>
+                <button className='portfolio__btn'>View Project</button>
             </div>
         </section>
     )

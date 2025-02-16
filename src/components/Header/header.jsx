@@ -16,11 +16,11 @@ function header() {
             </div>
             <nav>
                 <ul>
-                    <li><a href="#" className='navbar-activ'>Home</a></li>
+                    <li><a href="#home" className='navbar-activ'>Home</a></li>
                     <li><a href="#hard__skills"> Hard skills</a></li>
                     <li><a href="#aboutme">About me</a></li>
                     <li><a href="#Portfolio">Portfolio</a></li>
-                    <li><a href="#">Contact me</a></li>
+                    <li><a href="#contact-me">Contact me</a></li>
                 </ul>
             </nav>
             <div className='header-btn'>

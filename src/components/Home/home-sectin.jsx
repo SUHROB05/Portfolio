@@ -11,7 +11,7 @@ import { SiGmail } from "react-icons/si";
 
 function homeSectin() {
     return (
-        <section className='section1'>
+        <section className='section1' id='home'>
             <div className='s-text'>
                 <div className='text'>
                     <p className='p1'>Hi I am</p>
