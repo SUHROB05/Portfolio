@@ -29,7 +29,7 @@ function homeSectin() {
                     </div>
                     <div className='s-card'>
                         <div className='preykt-item'>
-                            <h2>30+</h2>
+                            <h2>40+</h2>
                             <p>Project done</p>
                         </div>
                         <span></span>

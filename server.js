@@ -10,8 +10,8 @@ app.use(cors());
 const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-        user: "your-email@gmail.com", // O'zingizning emailingiz
-        pass: "your-app-password" // Gmail App Password (2FA yoqilgan bo‘lishi kerak)
+        user: "suxrobamirov00@gmail.com@gmail.com", // O'zingizning emailingiz
+        pass: "SUHROB05" // Gmail App Password (2FA yoqilgan bo‘lishi kerak)
     }
 });
 
@@ -21,7 +21,7 @@ app.post("/send-email", async (req, res) => {
     try {
         await transporter.sendMail({
             from: email, // Mijozning emailingizdan sizga jo‘natilgan sifatida ko‘rinadi
-            to: "your-email@gmail.com", // Sizning emailingiz (kimga yuboriladi)
+            to: "suxrobamirov00@gmail.com", // Sizning emailingiz (kimga yuboriladi)
             replyTo: email, // Mijozning emailiga javob qaytarish uchun
             subject: "New Contact Form Submission",
             text: `

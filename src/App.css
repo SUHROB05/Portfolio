@@ -6,7 +6,7 @@
   background-color: #121212;
   margin: 0 auto;
   padding: 60px 80px 0 80px;
-  transition: 0.3s;
+  transition: 0.7s;
 }
 
 @media(max-width:1440px) {
@@ -68,6 +68,6 @@
   transition: 0.7s;
 }
 
-.footer{
+/* .footer{
   position: absolute;
-}
+} */

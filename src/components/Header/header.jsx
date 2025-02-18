@@ -5,7 +5,7 @@ import { VscListSelection } from "react-icons/vsc";
 
 function header() {
     return (
-        <header>
+        <header id='header'>
             <div className='mediya-icons'>
             <div>
                     <VscListSelection className='m-icons'/>
