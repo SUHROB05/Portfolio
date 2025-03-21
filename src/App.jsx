@@ -1,8 +1,10 @@
 // import { useState } from 'react'
 import './App.css';
+
+
 import Header from './components/Header/header';
 import HomeSection from './components/Home/home-sectin';
-import Skills from './components/Skills-Carusel/skills';
+import Skills from './components/Skills-Carusel';
 import About from './components/About-my/about';
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact-me'

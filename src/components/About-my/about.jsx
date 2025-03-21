@@ -15,10 +15,13 @@ function about() {
                 </div>
                 <div className='about__text'>
                     <p>
-                        <span> A software engineer, the modern-day architect of digital realms, navigates the ethereal landscapes of code, sculpting intangible structures
-                            that shape our technological world. With fingers poised over keyboards like virtuoso pianists, they compose symphonies of logic, their minds a labyrinth of algorithms and solutions.Their canvas is a screen, a vast expanse where lines of code dance in intricate patterns, weaving the fabric of programs and applications. Each keystroke is a brushstroke, crafting intricate architectures and breathing life into innovative designs.In this digital atelier, they don the mantle of problem solvers, confronting bugs and glitches like valiant knights in an ever-evolving quest for perfection. Debugging becomes a noble pursuit, unraveling the mysteries hidden within the tangled webs of code. designs.In this digital atelier. </span>
+                        <span> Salom! Men Suhrob, frontend dasturchiman. Dasturlashga yoshligimdan qiziqaman va bu sohada haqiqiy mutaxassis bo‘lishga intilaman. Mening maqsadim — foydalanuvchilar uchun tezkor, qulay va jozibali web-yechimlar yaratish. Har bir loyiha — bu men uchun tajriba va yangi imkoniyatlar eshigi.
+
+                            Asosiy yo‘nalishim frontend dasturlash bo‘lib, HTML, CSS, SCSS, Tailwind, JavaScript, React va Vite kabi texnologiyalar bilan ishlayman. Web-saytlar va ilovalarni zamonaviy dizayn, animatsiya va interaktiv imkoniyatlar bilan boyitishga harakat qilaman. Bundan tashqari, backend, mobil ilovalar, o‘yin yaratish, robototexnika va sun’iy intellekt (AI) sohalariga ham qiziqaman. Ushbu yo‘nalishlarda o‘zimni rivojlantirishga intilaman va yangi texnologiyalarni o‘rganishdan zavqlanaman.
+
+                            Dasturlash men uchun shunchaki kasb emas — bu ijodiy jarayon. Har bir kod qatori orqali foydalanuvchilarga qulaylik yaratish va texnologiya yordamida muammolarni hal qilish men uchun muhim. O‘z ustimda ishlash, yangi loyihalar ustida tajriba qilish va texnologik dunyodagi o‘zgarishlarga moslashish — mening asosiy maqsadlarimdan biri. </span>
                     </p>
-                   <div> <button className='btn__yuklash'>Downlead CV </button></div>
+                    <div> <button className='btn__yuklash'>Downlead CV </button></div>
                 </div>
             </div>
         </section >

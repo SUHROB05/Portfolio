@@ -6,9 +6,14 @@ import cardPick3 from '../../assets/imgs/P-rasim3.png'
 import cardPick4 from '../../assets/imgs/P-rasim4.png'
 import cardPick5 from '../../assets/imgs/P-rasim5.png'
 import cardPick6 from '../../assets/imgs/P-rasim6.png'
+import cardPick7 from '../../assets/imgs/Furnero.png'
+import cardPick8 from '../../assets/imgs/Arhitiktura.png'
+import { useNavigate } from "react-router-dom";
 
 
 function portfolio() {
+    const navigate = useNavigate();
+
     return (
         <section className='portfolio__section' id='Portfolio'>
             <div className='portfolio__text'>
@@ -17,20 +22,20 @@ function portfolio() {
             <div className='portfolio__contayner'>
                 <div className='p__card'>
                     <div className='p__card-img'>
-                        <img src={cardPick1} alt="" />
+                        <img src={cardPick8} alt="" />
                     </div>
                     <div className='p__card-text'>
-                        <h3>Panto</h3>
+                        <h3>Architecture</h3>
                         <a href='https://5-oy-imtihon-mauve.vercel.app/'><button>&gt;&gt;&gt;</button></a>
                     </div>
                 </div>
                 <div className='p__card'>
                     <div className='p__card-img'>
-                        <img src={cardPick2} alt="" />
+                        <img src={cardPick7} alt="" />
                     </div>
                     <div className='p__card-text'>
-                        <h3>Food</h3>
-                        <a href='https://frontent-2oy-72-s781.vercel.app/#'><button>&gt;&gt;&gt;</button></a>
+                        <h3>Furnero</h3>
+                        <a href='https://furnero-01-emj2.vercel.app/'><button>&gt;&gt;&gt;</button></a>
                     </div>
                 </div>
                 <div className='p__card'>
@@ -71,7 +76,10 @@ function portfolio() {
                 </div>
             </div>
             <div className='portfolio__more'>
-                <button className='portfolio__btn'>View Project</button>
+                {/* <Link to="/"><button className='portfolio__btn'>View Project</button></Link> */}
+                <button className="portfolio__btn" onClick={() => navigate("/partfolio")}>
+                    View Project
+                </button>
             </div>
         </section>
     )
