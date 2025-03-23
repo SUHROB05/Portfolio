@@ -29,7 +29,7 @@ function PartfoliyaPags() {
         </Link>
       </div>
       <div className='sarlovha-p'>
-        <h2>Partfolio</h2>
+        <h2>Portfolio</h2>
       </div>
 
       {/* katta bo'lim */}
