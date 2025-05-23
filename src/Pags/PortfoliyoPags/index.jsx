@@ -40,7 +40,7 @@ function PartfoliyaPags() {
           </div>
           <div className='p__card-text'>
             <h3>Architecture</h3>
-            <a href='https://axiomnexus-no1.vercel.app/'><button>&gt;&gt;&gt;</button></a>
+            <a href='https://axiomnexus-no1.vercel.app'><button>&gt;&gt;&gt;</button></a>
           </div>
         </div>
         <div className='p__card'>
