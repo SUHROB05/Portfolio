@@ -17,6 +17,7 @@ import cardPick10 from '../../assets/imgs/P-rasim10.png'
 import cardPick11 from '../../assets/imgs/P-rasim11.png'
 import cardPick12 from '../../assets/imgs/P-rasim12.png'
 import cardPick13 from '../../assets/imgs/P-rasim13.png'
+import cardPick14 from '../../assets/imgs/Enternet__do-kon.png'
 
 
 function PartfoliyaPags() {
@@ -34,6 +35,15 @@ function PartfoliyaPags() {
 
       {/* katta bo'lim */}
       <div className='portfolio__contaynerr'>
+        <div className='p__card'>
+          <div className='p__card-img'>
+            <img src={cardPick14} alt="" />
+          </div>
+          <div className='p__card-text'>
+            <h3>Enternet Do'kon</h3>
+            <a href='https://enternet-do-kon-2.vercel.app/'><button>&gt;&gt;&gt;</button></a>
+          </div>
+        </div>
         <div className='p__card'>
           <div className='p__card-img'>
             <img src={cardPick8} alt="" />

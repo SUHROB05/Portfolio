@@ -6,10 +6,14 @@ import { GrInstagram } from "react-icons/gr";
 import { RiTelegram2Fill } from "react-icons/ri";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { SiGmail } from "react-icons/si";
+import { useNavigate } from "react-router-dom";
+import Dowlond__CV from "../../Dowlond__CV/dowlond__cv"
 
 
 
 function homeSectin() {
+    const navigate = useNavigate();
+
     return (
         <section className='section1' id='home'>
             <div className='s-text'>
@@ -21,11 +25,18 @@ function homeSectin() {
                         <li className='link-icon'><a target='_blank' href="https://www.instagram.com/suxrobamirov00"><GrInstagram className='item-icon' /></a></li>
                         <li className='link-icon'><a target='_blank' href="https://t.me/ALFAYEGR"><RiTelegram2Fill className='item-icon' /></a></li>
                         <li className='link-icon'><a target='_blank' href="https://www.linkedin.com/in/suxrob-amirov-301807343/"><AiOutlineLinkedin className='item-icon' /></a></li>
-                        <li className='link-icon'><a target='_blank' href="suxrobamirov00@gmail.com"><SiGmail className='item-icon' /></a></li>
+                        <li className='link-icon'>
+                            <a
+                                target='_blank'
+                                href="https://mail.google.com/mail/?view=cm&fs=1&to=suxrobamirov00@gmail.com"
+                            >
+                                <SiGmail className='item-icon' />
+                            </a>
+                        </li>
                     </ul>
                     <div className='btns'>
-                        <button className='btn1'>Hire Me</button>
-                        <button className='btn2'>Downlead CV </button>
+                        <button className='btn1' onClick={() => navigate("/partfolio")}>Portfolio</button>
+                        <Dowlond__CV/>
                     </div>
                     <div className='s-card'>
                         <div className='preykt-item'>

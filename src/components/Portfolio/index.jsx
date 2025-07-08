@@ -8,6 +8,7 @@ import cardPick5 from '../../assets/imgs/P-rasim5.png'
 import cardPick6 from '../../assets/imgs/P-rasim6.png'
 import cardPick7 from '../../assets/imgs/Furnero.png'
 import cardPick8 from '../../assets/imgs/Arhitiktura.png'
+import cardPick9 from '../../assets/imgs/Enternet__do-kon.png'
 import { useNavigate } from "react-router-dom";
 
 
@@ -49,11 +50,11 @@ function portfolio() {
                 </div>
                 <div className='p__card'>
                     <div className='p__card-img'>
-                        <img src={cardPick4} alt="" />
+                        <img src={cardPick9} alt="" />
                     </div>
                     <div className='p__card-text'>
-                        <h3>Dashboard__1 </h3>
-                        <a href='https://5-oy-5-dars-figma.vercel.app/'><button>&gt;&gt;&gt;</button></a>
+                        <h3>Enternet Do'kon</h3>
+                        <a href='https://enternet-do-kon-2.vercel.app/'><button>&gt;&gt;&gt;</button></a>
                     </div>
                 </div>
                 <div className='p__card'>

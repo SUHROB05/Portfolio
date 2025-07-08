@@ -2,13 +2,16 @@ import React from 'react';
 import asLogo from '../../assets/icons/Suhrob aka logo.svg';
 import './header.scss';
 import { VscListSelection } from "react-icons/vsc";
+import { useNavigate } from "react-router-dom";
 
 function header() {
+    const navigate = useNavigate();
+
     return (
         <header id='header'>
             <div className='mediya-icons'>
-            <div>
-                    <VscListSelection className='m-icons'/>
+                <div>
+                    <VscListSelection className='m-icons' />
                 </div>
             </div>
             <div className='as-logo'>
@@ -24,7 +27,7 @@ function header() {
                 </ul>
             </nav>
             <div className='header-btn'>
-                <button>Hire Me</button>
+                <button onClick={() => navigate("/partfolio")}>Portfolio</button>
             </div>
         </header>
     )

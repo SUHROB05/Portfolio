@@ -1,6 +1,8 @@
 import React from 'react';
 import './about.scss';
 import myRasim from '../../assets/imgs/myRasim.png';
+import Dowlond__CV from "..//../Dowlond__CV/dowlond__cv"
+
 
 function about() {
     return (
@@ -21,7 +23,9 @@ function about() {
 
                             Dasturlash men uchun shunchaki kasb emas — bu ijodiy jarayon. Har bir kod qatori orqali foydalanuvchilarga qulaylik yaratish va texnologiya yordamida muammolarni hal qilish men uchun muhim. O‘z ustimda ishlash, yangi loyihalar ustida tajriba qilish va texnologik dunyodagi o‘zgarishlarga moslashish — mening asosiy maqsadlarimdan biri. </span>
                     </p>
-                    <div> <button className='btn__yuklash'>Downlead CV </button></div>
+                    <div>
+                        <div className="btn__yuklash"><Dowlond__CV /></div>
+                    </div>
                 </div>
             </div>
         </section >

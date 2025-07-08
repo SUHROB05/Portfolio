@@ -55,33 +55,12 @@
             div {
                 .btn__yuklash {
                     margin: 40px 0 0 0;
-                    font-size: 16px;
-                    padding: 8px 25px;
-                    background-color: #121212;
-                    border-radius: 10px;
-                    gap: 10px;
-                    border: 2px solid #959595;
-                    color: #959595;
 
-                    &:hover {
-                        border: 2px solid #FD6F00;
-                        box-shadow: 0 0 10px #FD6F00;
-                        color: #FD6F00;
-                        background: #121212;
-                    }
                 }
 
                 @media (max-width:1000px) {
                     .btn__yuklash {
                         margin: 30px 0 0 0;
-                        font-size: 15px;
-                        padding: 8px 23px;
-                        background-color: #121212;
-                        border-radius: 10px;
-                        gap: 10px;
-                        border: 2px solid #959595;
-                        color: #959595;
-
                     }
                 }
             }
@@ -97,25 +76,11 @@
 
                     .btn__yuklash {
                         margin-top: 30px;
-                        font-size: 15px;
-                        padding: 8px 23px;
-                        background-color: #121212;
-                        border-radius: 10px;
-                        gap: 10px;
-                        border: 2px solid #959595;
-                        color: #959595;
                     }
 
                     @media (max-width:470px) {
                         .btn__yuklash {
                             margin-top: 30px;
-                            font-size: 12px;
-                            padding: 7px 20px;
-                            background-color: #121212;
-                            border-radius: 8px;
-                            gap: 8px;
-                            border: 2px solid #959595;
-                            color: #959595;
                         }
                     }
                 }
