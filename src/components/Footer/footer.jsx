@@ -9,6 +9,7 @@ import { SiGmail } from "react-icons/si";
 
 import { CgMail } from "react-icons/cg";
 import { BsTelephone } from "react-icons/bs";
+import { FaGithub } from 'react-icons/fa';
 
 function Footer() {
     return (
@@ -30,7 +31,15 @@ function Footer() {
                     <li className='link-icon'><a target='_blank' href="https://www.instagram.com/suxrobamirov00"><GrInstagram className='item-icon' /></a></li>
                     <li className='link-icon'><a target='_blank' href="https://t.me/ALFAYEGR"><RiTelegram2Fill className='item-icon' /></a></li>
                     <li className='link-icon'><a target='_blank' href="https://www.linkedin.com/in/suxrob-amirov-301807343/"><AiOutlineLinkedin className='item-icon' /></a></li>
-                    <li className='link-icon'><a target='_blank' href="suxrobamirov00@gmail.com"><SiGmail className='item-icon' /></a></li>
+                    <li className='link-icon'>
+                        <a
+                            target='_blank'
+                            href="https://mail.google.com/mail/?view=cm&fs=1&to=suxrobamirov00@gmail.com"
+                        >
+                            <SiGmail className='item-icon' />
+                        </a>
+                    </li>
+                    <li className='link-icon'><a target='_blank' href="https://github.com/SUHROB05"><FaGithub className='item-icon' /></a></li>
                 </ul>
             </div>
             <div className='footer__contact'>

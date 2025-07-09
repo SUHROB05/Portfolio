@@ -10,9 +10,18 @@ import Portfolio from './components/Portfolio'
 import Contact from './components/Contact-me'
 import Footer from './components/Footer/footer'
 import Button from './components/Button__cursor'
+import { useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 
 
 function App() {
+  const location = useLocation();
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    setIsScrolled(window.scrollY > 0);
+  }, [location.pathname]);
 
   return (
     <>

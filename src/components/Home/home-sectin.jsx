@@ -8,6 +8,7 @@ import { AiOutlineLinkedin } from "react-icons/ai";
 import { SiGmail } from "react-icons/si";
 import { useNavigate } from "react-router-dom";
 import Dowlond__CV from "../../Dowlond__CV/dowlond__cv"
+import { FaGithub } from "react-icons/fa";
 
 
 
@@ -33,6 +34,7 @@ function homeSectin() {
                                 <SiGmail className='item-icon' />
                             </a>
                         </li>
+                         <li className='link-icon'><a target='_blank' href="https://github.com/SUHROB05"><FaGithub className='item-icon' /></a></li>
                     </ul>
                     <div className='btns'>
                         <button className='btn1' onClick={() => navigate("/partfolio")}>Portfolio</button>
